@@ -28,7 +28,7 @@ nmap <F2> :NERDTreeToggle <CR>
 nmap <F3> :TagbarToggle<CR>
 
 " Press F4 to open CtrlP
-let g:crtlp_map='<F4>'
+let g:ctrlp_map = '<f4>'
 
 " solarized theme
 let g:solarized_termtrans = 1
