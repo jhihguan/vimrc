@@ -20,6 +20,9 @@ set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 :set shiftwidth=4
 :set tabstop=4
 :set expandtab
+set softtabstop=4   "let backspace delete indent
+" Makefile have to use <TAB> excepts spaces
+au FileType Makefile set noexpandtab
 
 " Press F2 to open Nerdtree
 nmap <F2> :NERDTreeToggle <CR>
