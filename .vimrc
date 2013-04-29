@@ -16,10 +16,14 @@ set backspace+=indent,eol,start
 " powerline setting for vim
 set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
 
+" Map leader key to ,
+let mapleader=","
+let g:mapleader=","
+
 " tab2space and shift 4
-:set shiftwidth=4
-:set tabstop=4
-:set expandtab
+set shiftwidth=4
+set tabstop=4
+set expandtab
 set softtabstop=4   "let backspace delete indent
 " Makefile have to use <TAB> excepts spaces
 au FileType Makefile set noexpandtab
