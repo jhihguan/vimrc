@@ -25,9 +25,6 @@
 [submodule "bundle/indent-motion"]
 	path = bundle/indent-motion
 	url = https://github.com/vim-scripts/indent-motion.git
-[submodule "bundle/cuteErrorMarker"]
-	path = bundle/cuteErrorMarker
-	url = http://github.com/Twinside/vim-cuteErrorMarker.git
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
