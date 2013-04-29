@@ -22,3 +22,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = http://github.com/scrooloose/nerdtree.git
+[submodule "bundle/indent-motion"]
+	path = bundle/indent-motion
+	url = https://github.com/vim-scripts/indent-motion.git
