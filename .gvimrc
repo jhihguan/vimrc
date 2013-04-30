@@ -48,3 +48,7 @@ colorscheme solarized
 set laststatus=2 
 set t_Co=256
 let g:Powerline_symbols = 'fancy'
+
+" jedi not popup up dot automatically
+let g:jedi#popup_on_dot = 0
+let g:jedi#autocompletion_command = "<leader>l"
