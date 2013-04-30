@@ -1,3 +1,5 @@
+set guifont=Inconsolata\ for\ Powerline:h15
+
 " Link pathogen to manage bundle
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
